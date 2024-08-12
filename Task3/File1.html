@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to My E-Learning Platform</h1>
+            <p>Enhance your skills with our curated online courses.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course">
+                    <img src="course1.jpg" alt="Course 1">
+                    <h3>Introduction to Programming</h3>
+                    <p>Learn the basics of programming with interactive tutorials.</p>
+                    <a href="#course1" class="btn">Learn More</a>
+                </div>
+                <div class="course">
+                    <img src="course2.jpg" alt="Course 2">
+                    <h3>Web Development</h3>
+                    <p>Build and design your own websites from scratch.</p>
+                    <a href="#course2" class="btn">Learn More</a>
+                </div>
+                <div class="course">
+                    <img src="course3.jpg" alt="Course 3">
+                    <h3>Data Science</h3>
+                    <p>Analyze and visualize data with practical projects.</p>
+                    <a href="#course3" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to providing high-quality online education to help you achieve your career goals.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-Learning Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
